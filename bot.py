@@ -21,7 +21,7 @@ asyncio.set_event_loop(asyncio.new_event_loop())
 # ----------------- CONFIG -----------------
 API_ID = 35178331   
 API_HASH = "1ce1eda6f5f231969130855928fb3e4f"
-OWNER_ID = 8366038342        
+OWNER_ID = 8405186594        
 SESSION_NAME = "varun.session"
 MUTED_FILE = "muted.json"
 # ------------------------------------------
@@ -10232,3 +10232,4 @@ if __name__ == "__main__":
         client.loop.run_until_complete(main())
     except KeyboardInterrupt:
         print("Stopped by user.")
+
